@@ -255,8 +255,11 @@ def gotcha_main(recursive=False, only_report=False, filter='', verbose=False, *p
     display_report()
 
 
-if __name__ == '__main__':
+def gotcha():
     try:
         gotcha_main(*sys.argv)
     except clize.ArgumentError as e:
         print os.path.basename(sys.argv[0]) + ': ' + str(e)
+
+if __name__ == '__main__':
+    gotcha()
