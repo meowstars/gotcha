@@ -221,7 +221,7 @@ def gotcha_main(recursive=False, only_report=False, filter='', verbose=False, *p
 
     recursive: Tells gotcha if it has to search into subdirectories
 
-    filter: filters by keywords, classes, devs, ...
+    filter: filters by keywords or classes
 
     only_report: Displays only the report
 

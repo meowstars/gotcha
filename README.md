@@ -1,6 +1,6 @@
-# gotcha
+# Gotcha
 
-# Overview
+## Overview
 Gotcha is a python2 program that parse a source code to extract developers comments. These comments are written in a special format called Gotcha Keywords, and they are used to point in a formal way bugs in the code, parts of code that may be rewritten, documentation… Any kind of information useful for developpers.
 
 These gotcha keywords are very useful during the developping phase and they allow developers to track bugs and see the amount of remaining work in a blink of an eye. In fact, when we use Gotcha to display, for example, "TODO" comments, we can see the tasks we have to achieve to progress in the project. A search on the keyword "BUG" lists parts of the code that we have to debug and "TRICKY" comments are use to explain a part of code that might be hard to understand by only reading it.
@@ -9,7 +9,7 @@ These gotcha keywords are very useful during the developping phase and they allo
 A comment Gotcha have to be written like that :
         CS :KEYWORD:dev-name:yyyymmdd:Comment
 
-"CS" stands for Comment Symbol. The keyword HAVE TO be written uppercase. The date HAVE TO respect the format yyyymmdd.
+"CS" stands for Comment Symbol. The keyword heve to be written uppercase. The date have to respect the format yyyymmdd.
 
 Example with a C comment :
         // :TODO:Meow:20121221:Find a way to survive to the end of the world
