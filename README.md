@@ -39,7 +39,7 @@ These keywords are sorted in classes, here are the definitions:
 ## How to use Gotcha
 Just run gotcha. With -h to display all options available.
 
-Gotcha can display all gotcha keywords but also and moreover, information you want. We can specify files to parse, to ignore, tell him to parse every file in every sub-directory, on only in the current one. It is possible to filter results by keywords class, ignore some keywords, just display keywords you want to see. Finally we can also sort results by keyword, by developer name and by date. We can display information that suits our own needs.
+Gotcha can display all gotcha keywords but also and moreover, information you want. We can specify files to parse, to ignore, tell him to parse every file in every sub-directory, on only in the current one. It is possible to filter results by keywords class, ignore some keywords, just display keywords you want to see. We can display information that suits our own needs.
 
 For more information I suggest you to start the program with the -h option. You will see all the options and some examples of use.
 
@@ -48,6 +48,10 @@ You can install Gotcha with pip : pip install gotcha
 
 ## Sources
 Sources are freely available on github : http://github.com/meowstars/gotcha
+
+## TODO
++ Change dev's names and date color to a grey
++ Sorting options (by dev/date/kw/class)
 
 ## License
 Gotcha is published under the LGPL version 3 license.
